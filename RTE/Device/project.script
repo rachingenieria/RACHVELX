@@ -1,0 +1,4 @@
+load STM32F042K6Tx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "\\192.168.3.76\e\RACH\Google Drive RACH\Proyectos\Velocista\RACHBOT X\FIRMWARE KEIL\RTE\Device\STM32F042K6Tx\" 
