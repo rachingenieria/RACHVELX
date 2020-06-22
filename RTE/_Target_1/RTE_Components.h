@@ -16,7 +16,7 @@
  */
 #define CMSIS_device_header "stm32f0xx.h"
 
-/*  ARM::CMSIS:RTOS:Keil RTX:4.82.0 */
+/*  ARM::CMSIS:RTOS:Keil RTX:4.81.1 */
 #define RTE_CMSIS_RTOS                  /* CMSIS-RTOS */
         #define RTE_CMSIS_RTOS_RTX              /* CMSIS-RTOS Keil RTX */
 /*  Keil.STM32CubeMX::Device:STM32Cube Framework:STM32CubeMX:1.0.0 */

@@ -443,15 +443,16 @@ ARM Macro Assembler    Page 7
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=.\objects\startup_stm32f042x6.d -o.\objects\startup_stm32f042x6.o 
 -I.\RTE\Device\STM32F042K6Tx -I.\RTE\Device\STM32F042K6Tx\STCubeGenerated\Inc -
-I.\RTE\_Target_1 -IC:\Users\rachi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS
-\Core\Include -IC:\Users\rachi\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RT
-OS\RTX\INC -IC:\Users\rachi\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Dr
-ivers\CMSIS\Device\ST\STM32F0xx\Include -IC:\Users\rachi\AppData\Local\Arm\Pack
-s\Keil\STM32F0xx_DFP\2.0.0\Drivers\STM32F0xx_HAL_Driver\Inc --predefine="__RTX 
-SETA 1" --predefine="__UVISION_VERSION SETA 528" --predefine="_RTE_ SETA 1" --p
-redefine="STM32F042x6 SETA 1" --list=.\listings\startup_stm32f042x6.lst "F:\RAC
-H\GOOGLE DRIVE\Proyectos\Velocista\RACHBOT X\FIRMWARE KEIL - GIHUB\RTE\Device\S
-TM32F042K6Tx\STCubeGenerated\MDK-ARM\startup_stm32f042x6.s"
+I.\RTE\_Target_1 -I"C:\Users\Ricardo Cervantes\AppData\Local\Arm\Packs\ARM\CMSI
+S\5.5.1\CMSIS\Core\Include" -I"C:\Users\Ricardo Cervantes\AppData\Local\Arm\Pac
+ks\ARM\CMSIS\5.5.1\CMSIS\RTOS\RTX\INC" -I"C:\Users\Ricardo Cervantes\AppData\Lo
+cal\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Includ
+e" -I"C:\Users\Ricardo Cervantes\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0
+.0\Drivers\STM32F0xx_HAL_Driver\Inc" --predefine="__RTX SETA 1" --predefine="__
+EVAL SETA 1" --predefine="__UVISION_VERSION SETA 527" --predefine="_RTE_ SETA 1
+" --predefine="STM32F042x6 SETA 1" --list=.\listings\startup_stm32f042x6.lst "F
+:\CODIGOS PROYECTOS\RACHVELX\trunk\RTE\Device\STM32F042K6Tx\STCubeGenerated\MDK
+-ARM\startup_stm32f042x6.s"
 
 
 
@@ -462,7 +463,7 @@ STACK 00000000
 
 Symbol: STACK
    Definitions
-      At line 48 in file F:\RACH\GOOGLE
+      At line 48 in file F:\CODIGOS
    Uses
       None
 Comment: STACK unused
@@ -470,19 +471,19 @@ Stack_Mem 00000000
 
 Symbol: Stack_Mem
    Definitions
-      At line 49 in file F:\RACH\GOOGLE
+      At line 49 in file F:\CODIGOS
    Uses
-      At line 276 in file F:\RACH\GOOGLE
-      At line 278 in file F:\RACH\GOOGLE
+      At line 276 in file F:\CODIGOS
+      At line 278 in file F:\CODIGOS
 
 __initial_sp 00000400
 
 Symbol: __initial_sp
    Definitions
-      At line 50 in file F:\RACH\GOOGLE
+      At line 50 in file F:\CODIGOS
    Uses
-      At line 74 in file F:\RACH\GOOGLE
-      At line 139 in file F:\RACH\GOOGLE
+      At line 74 in file F:\CODIGOS
+      At line 139 in file F:\CODIGOS
 
 3 symbols
 
@@ -495,7 +496,7 @@ HEAP 00000000
 
 Symbol: HEAP
    Definitions
-      At line 59 in file F:\RACH\GOOGLE
+      At line 59 in file F:\CODIGOS
    Uses
       None
 Comment: HEAP unused
@@ -503,16 +504,16 @@ Heap_Mem 00000000
 
 Symbol: Heap_Mem
    Definitions
-      At line 61 in file F:\RACH\GOOGLE
+      At line 61 in file F:\CODIGOS
    Uses
-      At line 275 in file F:\RACH\GOOGLE
-      At line 277 in file F:\RACH\GOOGLE
+      At line 275 in file F:\CODIGOS
+      At line 277 in file F:\CODIGOS
 
 __heap_base 00000000
 
 Symbol: __heap_base
    Definitions
-      At line 60 in file F:\RACH\GOOGLE
+      At line 60 in file F:\CODIGOS
    Uses
       None
 Comment: __heap_base unused
@@ -520,7 +521,7 @@ __heap_limit 00000200
 
 Symbol: __heap_limit
    Definitions
-      At line 62 in file F:\RACH\GOOGLE
+      At line 62 in file F:\CODIGOS
    Uses
       None
 Comment: __heap_limit unused
@@ -535,7 +536,7 @@ RESET 00000000
 
 Symbol: RESET
    Definitions
-      At line 69 in file F:\RACH\GOOGLE
+      At line 69 in file F:\CODIGOS
    Uses
       None
 Comment: RESET unused
@@ -543,19 +544,19 @@ __Vectors 00000000
 
 Symbol: __Vectors
    Definitions
-      At line 74 in file F:\RACH\GOOGLE
+      At line 74 in file F:\CODIGOS
    Uses
-      At line 70 in file F:\RACH\GOOGLE
-      At line 127 in file F:\RACH\GOOGLE
+      At line 70 in file F:\CODIGOS
+      At line 127 in file F:\CODIGOS
 
 __Vectors_End 000000C0
 
 Symbol: __Vectors_End
    Definitions
-      At line 125 in file F:\RACH\GOOGLE
+      At line 125 in file F:\CODIGOS
    Uses
-      At line 71 in file F:\RACH\GOOGLE
-      At line 127 in file F:\RACH\GOOGLE
+      At line 71 in file F:\CODIGOS
+      At line 127 in file F:\CODIGOS
 
 3 symbols
 
@@ -568,7 +569,7 @@ Relocatable symbols
 
 Symbol: .text
    Definitions
-      At line 129 in file F:\RACH\GOOGLE
+      At line 129 in file F:\CODIGOS
    Uses
       None
 Comment: .text unused
@@ -576,66 +577,66 @@ ADC1_IRQHandler 00000030
 
 Symbol: ADC1_IRQHandler
    Definitions
-      At line 237 in file F:\RACH\GOOGLE
+      At line 237 in file F:\CODIGOS
    Uses
-      At line 104 in file F:\RACH\GOOGLE
-      At line 208 in file F:\RACH\GOOGLE
+      At line 104 in file F:\CODIGOS
+      At line 208 in file F:\CODIGOS
 
 ApplicationStart 0000001E
 
 Symbol: ApplicationStart
    Definitions
-      At line 163 in file F:\RACH\GOOGLE
+      At line 163 in file F:\CODIGOS
    Uses
-      At line 150 in file F:\RACH\GOOGLE
+      At line 150 in file F:\CODIGOS
 Comment: ApplicationStart used once
 CEC_CAN_IRQHandler 00000030
 
 Symbol: CEC_CAN_IRQHandler
    Definitions
-      At line 250 in file F:\RACH\GOOGLE
+      At line 250 in file F:\CODIGOS
    Uses
-      At line 122 in file F:\RACH\GOOGLE
-      At line 221 in file F:\RACH\GOOGLE
+      At line 122 in file F:\CODIGOS
+      At line 221 in file F:\CODIGOS
 
 DMA1_Channel1_IRQHandler 00000030
 
 Symbol: DMA1_Channel1_IRQHandler
    Definitions
-      At line 234 in file F:\RACH\GOOGLE
+      At line 234 in file F:\CODIGOS
    Uses
-      At line 101 in file F:\RACH\GOOGLE
-      At line 205 in file F:\RACH\GOOGLE
+      At line 101 in file F:\CODIGOS
+      At line 205 in file F:\CODIGOS
 
 DMA1_Channel2_3_IRQHandler 00000030
 
 Symbol: DMA1_Channel2_3_IRQHandler
    Definitions
-      At line 235 in file F:\RACH\GOOGLE
+      At line 235 in file F:\CODIGOS
    Uses
-      At line 102 in file F:\RACH\GOOGLE
-      At line 206 in file F:\RACH\GOOGLE
+      At line 102 in file F:\CODIGOS
+      At line 206 in file F:\CODIGOS
 
 DMA1_Channel4_5_IRQHandler 00000030
 
 Symbol: DMA1_Channel4_5_IRQHandler
    Definitions
-      At line 236 in file F:\RACH\GOOGLE
+      At line 236 in file F:\CODIGOS
    Uses
-      At line 103 in file F:\RACH\GOOGLE
+      At line 103 in file F:\CODIGOS
 
 
 
 ARM Macro Assembler    Page 2 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 207 in file F:\RACH\GOOGLE
+      At line 207 in file F:\CODIGOS
 
 Default_Handler 00000030
 
 Symbol: Default_Handler
    Definitions
-      At line 194 in file F:\RACH\GOOGLE
+      At line 194 in file F:\CODIGOS
    Uses
       None
 Comment: Default_Handler unused
@@ -643,46 +644,46 @@ EXTI0_1_IRQHandler 00000030
 
 Symbol: EXTI0_1_IRQHandler
    Definitions
-      At line 230 in file F:\RACH\GOOGLE
+      At line 230 in file F:\CODIGOS
    Uses
-      At line 97 in file F:\RACH\GOOGLE
-      At line 201 in file F:\RACH\GOOGLE
+      At line 97 in file F:\CODIGOS
+      At line 201 in file F:\CODIGOS
 
 EXTI2_3_IRQHandler 00000030
 
 Symbol: EXTI2_3_IRQHandler
    Definitions
-      At line 231 in file F:\RACH\GOOGLE
+      At line 231 in file F:\CODIGOS
    Uses
-      At line 98 in file F:\RACH\GOOGLE
-      At line 202 in file F:\RACH\GOOGLE
+      At line 98 in file F:\CODIGOS
+      At line 202 in file F:\CODIGOS
 
 EXTI4_15_IRQHandler 00000030
 
 Symbol: EXTI4_15_IRQHandler
    Definitions
-      At line 232 in file F:\RACH\GOOGLE
+      At line 232 in file F:\CODIGOS
    Uses
-      At line 99 in file F:\RACH\GOOGLE
-      At line 203 in file F:\RACH\GOOGLE
+      At line 99 in file F:\CODIGOS
+      At line 203 in file F:\CODIGOS
 
 FLASH_IRQHandler 00000030
 
 Symbol: FLASH_IRQHandler
    Definitions
-      At line 228 in file F:\RACH\GOOGLE
+      At line 228 in file F:\CODIGOS
    Uses
-      At line 95 in file F:\RACH\GOOGLE
-      At line 199 in file F:\RACH\GOOGLE
+      At line 95 in file F:\CODIGOS
+      At line 199 in file F:\CODIGOS
 
 HardFault_Handler 00000028
 
 Symbol: HardFault_Handler
    Definitions
-      At line 177 in file F:\RACH\GOOGLE
+      At line 177 in file F:\CODIGOS
    Uses
-      At line 77 in file F:\RACH\GOOGLE
-      At line 178 in file F:\RACH\GOOGLE
+      At line 77 in file F:\CODIGOS
+      At line 178 in file F:\CODIGOS
 
 I2C1_IRQHandler 00000030
 
@@ -694,64 +695,64 @@ Symbol: I2C1_IRQHandler
 ARM Macro Assembler    Page 3 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 245 in file F:\RACH\GOOGLE
+      At line 245 in file F:\CODIGOS
    Uses
-      At line 115 in file F:\RACH\GOOGLE
-      At line 216 in file F:\RACH\GOOGLE
+      At line 115 in file F:\CODIGOS
+      At line 216 in file F:\CODIGOS
 
 NMI_Handler 00000026
 
 Symbol: NMI_Handler
    Definitions
-      At line 172 in file F:\RACH\GOOGLE
+      At line 172 in file F:\CODIGOS
    Uses
-      At line 76 in file F:\RACH\GOOGLE
-      At line 173 in file F:\RACH\GOOGLE
+      At line 76 in file F:\CODIGOS
+      At line 173 in file F:\CODIGOS
 
 PVD_VDDIO2_IRQHandler 00000030
 
 Symbol: PVD_VDDIO2_IRQHandler
    Definitions
-      At line 226 in file F:\RACH\GOOGLE
+      At line 226 in file F:\CODIGOS
    Uses
-      At line 93 in file F:\RACH\GOOGLE
-      At line 197 in file F:\RACH\GOOGLE
+      At line 93 in file F:\CODIGOS
+      At line 197 in file F:\CODIGOS
 
 PendSV_Handler 0000002C
 
 Symbol: PendSV_Handler
    Definitions
-      At line 185 in file F:\RACH\GOOGLE
+      At line 185 in file F:\CODIGOS
    Uses
-      At line 88 in file F:\RACH\GOOGLE
-      At line 186 in file F:\RACH\GOOGLE
+      At line 88 in file F:\CODIGOS
+      At line 186 in file F:\CODIGOS
 
 RCC_CRS_IRQHandler 00000030
 
 Symbol: RCC_CRS_IRQHandler
    Definitions
-      At line 229 in file F:\RACH\GOOGLE
+      At line 229 in file F:\CODIGOS
    Uses
-      At line 96 in file F:\RACH\GOOGLE
-      At line 200 in file F:\RACH\GOOGLE
+      At line 96 in file F:\CODIGOS
+      At line 200 in file F:\CODIGOS
 
 RTC_IRQHandler 00000030
 
 Symbol: RTC_IRQHandler
    Definitions
-      At line 227 in file F:\RACH\GOOGLE
+      At line 227 in file F:\CODIGOS
    Uses
-      At line 94 in file F:\RACH\GOOGLE
-      At line 198 in file F:\RACH\GOOGLE
+      At line 94 in file F:\CODIGOS
+      At line 198 in file F:\CODIGOS
 
 Reset_Handler 00000000
 
 Symbol: Reset_Handler
    Definitions
-      At line 132 in file F:\RACH\GOOGLE
+      At line 132 in file F:\CODIGOS
    Uses
-      At line 75 in file F:\RACH\GOOGLE
-      At line 133 in file F:\RACH\GOOGLE
+      At line 75 in file F:\CODIGOS
+      At line 133 in file F:\CODIGOS
 
 
 
@@ -763,61 +764,61 @@ SPI1_IRQHandler 00000030
 
 Symbol: SPI1_IRQHandler
    Definitions
-      At line 246 in file F:\RACH\GOOGLE
+      At line 246 in file F:\CODIGOS
    Uses
-      At line 117 in file F:\RACH\GOOGLE
-      At line 217 in file F:\RACH\GOOGLE
+      At line 117 in file F:\CODIGOS
+      At line 217 in file F:\CODIGOS
 
 SPI2_IRQHandler 00000030
 
 Symbol: SPI2_IRQHandler
    Definitions
-      At line 247 in file F:\RACH\GOOGLE
+      At line 247 in file F:\CODIGOS
    Uses
-      At line 118 in file F:\RACH\GOOGLE
-      At line 218 in file F:\RACH\GOOGLE
+      At line 118 in file F:\CODIGOS
+      At line 218 in file F:\CODIGOS
 
 SVC_Handler 0000002A
 
 Symbol: SVC_Handler
    Definitions
-      At line 181 in file F:\RACH\GOOGLE
+      At line 181 in file F:\CODIGOS
    Uses
-      At line 85 in file F:\RACH\GOOGLE
-      At line 182 in file F:\RACH\GOOGLE
+      At line 85 in file F:\CODIGOS
+      At line 182 in file F:\CODIGOS
 
 SysTick_Handler 0000002E
 
 Symbol: SysTick_Handler
    Definitions
-      At line 189 in file F:\RACH\GOOGLE
+      At line 189 in file F:\CODIGOS
    Uses
-      At line 89 in file F:\RACH\GOOGLE
-      At line 190 in file F:\RACH\GOOGLE
+      At line 89 in file F:\CODIGOS
+      At line 190 in file F:\CODIGOS
 
 TIM14_IRQHandler 00000030
 
 Symbol: TIM14_IRQHandler
    Definitions
-      At line 242 in file F:\RACH\GOOGLE
+      At line 242 in file F:\CODIGOS
    Uses
-      At line 111 in file F:\RACH\GOOGLE
-      At line 213 in file F:\RACH\GOOGLE
+      At line 111 in file F:\CODIGOS
+      At line 213 in file F:\CODIGOS
 
 TIM16_IRQHandler 00000030
 
 Symbol: TIM16_IRQHandler
    Definitions
-      At line 243 in file F:\RACH\GOOGLE
+      At line 243 in file F:\CODIGOS
    Uses
-      At line 113 in file F:\RACH\GOOGLE
-      At line 214 in file F:\RACH\GOOGLE
+      At line 113 in file F:\CODIGOS
+      At line 214 in file F:\CODIGOS
 
 TIM17_IRQHandler 00000030
 
 Symbol: TIM17_IRQHandler
    Definitions
-      At line 244 in file F:\RACH\GOOGLE
+      At line 244 in file F:\CODIGOS
 
 
 
@@ -825,62 +826,62 @@ ARM Macro Assembler    Page 5 Alphabetic symbol ordering
 Relocatable symbols
 
    Uses
-      At line 114 in file F:\RACH\GOOGLE
-      At line 215 in file F:\RACH\GOOGLE
+      At line 114 in file F:\CODIGOS
+      At line 215 in file F:\CODIGOS
 
 TIM1_BRK_UP_TRG_COM_IRQHandler 00000030
 
 Symbol: TIM1_BRK_UP_TRG_COM_IRQHandler
    Definitions
-      At line 238 in file F:\RACH\GOOGLE
+      At line 238 in file F:\CODIGOS
    Uses
-      At line 105 in file F:\RACH\GOOGLE
-      At line 209 in file F:\RACH\GOOGLE
+      At line 105 in file F:\CODIGOS
+      At line 209 in file F:\CODIGOS
 
 TIM1_CC_IRQHandler 00000030
 
 Symbol: TIM1_CC_IRQHandler
    Definitions
-      At line 239 in file F:\RACH\GOOGLE
+      At line 239 in file F:\CODIGOS
    Uses
-      At line 106 in file F:\RACH\GOOGLE
-      At line 210 in file F:\RACH\GOOGLE
+      At line 106 in file F:\CODIGOS
+      At line 210 in file F:\CODIGOS
 
 TIM2_IRQHandler 00000030
 
 Symbol: TIM2_IRQHandler
    Definitions
-      At line 240 in file F:\RACH\GOOGLE
+      At line 240 in file F:\CODIGOS
    Uses
-      At line 107 in file F:\RACH\GOOGLE
-      At line 211 in file F:\RACH\GOOGLE
+      At line 107 in file F:\CODIGOS
+      At line 211 in file F:\CODIGOS
 
 TIM3_IRQHandler 00000030
 
 Symbol: TIM3_IRQHandler
    Definitions
-      At line 241 in file F:\RACH\GOOGLE
+      At line 241 in file F:\CODIGOS
    Uses
-      At line 108 in file F:\RACH\GOOGLE
-      At line 212 in file F:\RACH\GOOGLE
+      At line 108 in file F:\CODIGOS
+      At line 212 in file F:\CODIGOS
 
 TSC_IRQHandler 00000030
 
 Symbol: TSC_IRQHandler
    Definitions
-      At line 233 in file F:\RACH\GOOGLE
+      At line 233 in file F:\CODIGOS
    Uses
-      At line 100 in file F:\RACH\GOOGLE
-      At line 204 in file F:\RACH\GOOGLE
+      At line 100 in file F:\CODIGOS
+      At line 204 in file F:\CODIGOS
 
 USART1_IRQHandler 00000030
 
 Symbol: USART1_IRQHandler
    Definitions
-      At line 248 in file F:\RACH\GOOGLE
+      At line 248 in file F:\CODIGOS
    Uses
-      At line 119 in file F:\RACH\GOOGLE
-      At line 219 in file F:\RACH\GOOGLE
+      At line 119 in file F:\CODIGOS
+      At line 219 in file F:\CODIGOS
 
 USART2_IRQHandler 00000030
 
@@ -892,36 +893,36 @@ Relocatable symbols
 
 Symbol: USART2_IRQHandler
    Definitions
-      At line 249 in file F:\RACH\GOOGLE
+      At line 249 in file F:\CODIGOS
    Uses
-      At line 120 in file F:\RACH\GOOGLE
-      At line 220 in file F:\RACH\GOOGLE
+      At line 120 in file F:\CODIGOS
+      At line 220 in file F:\CODIGOS
 
 USB_IRQHandler 00000030
 
 Symbol: USB_IRQHandler
    Definitions
-      At line 251 in file F:\RACH\GOOGLE
+      At line 251 in file F:\CODIGOS
    Uses
-      At line 123 in file F:\RACH\GOOGLE
-      At line 222 in file F:\RACH\GOOGLE
+      At line 123 in file F:\CODIGOS
+      At line 222 in file F:\CODIGOS
 
 WWDG_IRQHandler 00000030
 
 Symbol: WWDG_IRQHandler
    Definitions
-      At line 225 in file F:\RACH\GOOGLE
+      At line 225 in file F:\CODIGOS
    Uses
-      At line 92 in file F:\RACH\GOOGLE
-      At line 196 in file F:\RACH\GOOGLE
+      At line 92 in file F:\CODIGOS
+      At line 196 in file F:\CODIGOS
 
 __user_initial_stackheap 00000034
 
 Symbol: __user_initial_stackheap
    Definitions
-      At line 273 in file F:\RACH\GOOGLE
+      At line 273 in file F:\CODIGOS
    Uses
-      At line 271 in file F:\RACH\GOOGLE
+      At line 271 in file F:\CODIGOS
 Comment: __user_initial_stackheap used once
 37 symbols
 
@@ -934,27 +935,27 @@ Heap_Size 00000200
 
 Symbol: Heap_Size
    Definitions
-      At line 57 in file F:\RACH\GOOGLE
+      At line 57 in file F:\CODIGOS
    Uses
-      At line 61 in file F:\RACH\GOOGLE
-      At line 277 in file F:\RACH\GOOGLE
+      At line 61 in file F:\CODIGOS
+      At line 277 in file F:\CODIGOS
 
 Stack_Size 00000400
 
 Symbol: Stack_Size
    Definitions
-      At line 46 in file F:\RACH\GOOGLE
+      At line 46 in file F:\CODIGOS
    Uses
-      At line 49 in file F:\RACH\GOOGLE
-      At line 276 in file F:\RACH\GOOGLE
+      At line 49 in file F:\CODIGOS
+      At line 276 in file F:\CODIGOS
 
 __Vectors_Size 000000C0
 
 Symbol: __Vectors_Size
    Definitions
-      At line 127 in file F:\RACH\GOOGLE
+      At line 127 in file F:\CODIGOS
    Uses
-      At line 72 in file F:\RACH\GOOGLE
+      At line 72 in file F:\CODIGOS
 Comment: __Vectors_Size used once
 3 symbols
 
@@ -967,25 +968,25 @@ SystemInit 00000000
 
 Symbol: SystemInit
    Definitions
-      At line 135 in file F:\RACH\GOOGLE
+      At line 135 in file F:\CODIGOS
    Uses
-      At line 164 in file F:\RACH\GOOGLE
+      At line 164 in file F:\CODIGOS
 Comment: SystemInit used once
 __main 00000000
 
 Symbol: __main
    Definitions
-      At line 134 in file F:\RACH\GOOGLE
+      At line 134 in file F:\CODIGOS
    Uses
-      At line 166 in file F:\RACH\GOOGLE
+      At line 166 in file F:\CODIGOS
 Comment: __main used once
 __use_two_region_memory 00000000
 
 Symbol: __use_two_region_memory
    Definitions
-      At line 270 in file F:\RACH\GOOGLE
+      At line 270 in file F:\CODIGOS
    Uses
       None
 Comment: __use_two_region_memory unused
 3 symbols
-391 symbols in table
+392 symbols in table
